@@ -14,13 +14,13 @@ Se
 
 ### Slides and Presentation
 
-IEEE ComSoc Bangalore https://www.youtube.com/watch?v=O2vMswxW-P8&t=215s&ab_channel=IEEEComSocBangalore
+[IEEE ComSoc Bangalore] (https://www.youtube.com/watch?v=O2vMswxW-P8&t=215s&ab_channel=IEEEComSocBangalore)
 
-Taste of Java 8 https://prezi.com/trcz6h9fecwe/?preview=1
+[Taste of Java 8] (https://prezi.com/trcz6h9fecwe/?preview=1)
 
-https://wiki.opennetworking.org/display/Atrium/Additional+Installation+Guides:+ODL,+ONOS,+QUAGGA
+[Atrium project] (https://wiki.opennetworking.org/display/Atrium/Additional+Installation+Guides:+ODL,+ONOS,+QUAGGA)
 
-Master's thesis presentation https://www.slideshare.net/SubhSingh/20-dec-arppresentation
+[Master's thesis presentation] https://www.slideshare.net/SubhSingh/20-dec-arppresentation
 
 
 ### Contact me
