@@ -72,7 +72,7 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-hacker
 
 # Use the following plug-ins
 gems:
