@@ -54,6 +54,9 @@ $ docker pull <ip-insecure-registry>:5000/my-ubuntu
 
 It will confirm if you are able to pull image from remote repository.
 
+
 Reference:
+
 [1] https://docs.docker.com/registry/deploying/
+
 [2] https://docs.docker.com/registry/insecure/
