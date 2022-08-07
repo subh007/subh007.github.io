@@ -15,40 +15,4 @@ Extracting a tar file is three step process :
 4. Use this new reader to process the zipped file iteratively.
 
 
-``` golang
-func extractFile(filename string) {
-	gzipstream, err := os.Open(filename)
-	if err != nil {
-		log.Error("error while reading tar : %v", err)
-		return
-	}
-	defer gzipstream.Close()
-
-	uncompressedStream, err := gzip.NewReader(gzipstream)
-	if err != nil {
-		log.Error("ExtractTarGz: NewReader failed")
-	}
-
-	tarReader := tar.NewReader(uncompressedStream)
-
-	for {
-		header, err := tarReader.Next()
-		if err == io.EOF {
-			break
-		}
-		if err != nil {
-			log.Error("ExtractTarGz: Next() failed: %s", err.Error())
-		}
-
-		switch header.Typeflag {
-		case tar.TypeReg:
-			f, err := os.Create(header.Name)
-			if err != nil {
-				log.Error("create failed : %v", err)
-			}
-			io.Copy(f, tarReader)
-			f.Close()
-		}
-	}
-}
-```
+<script src="https://gist.github.com/subh007/25b96d3cea03259d697153f25f24e3f2.js"></script>
